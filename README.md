@@ -1,41 +1,39 @@
-<h1>Medium Project</h1>
+# Medium Project
 
-    <p>A simple Medium-like blog application built using <strong>Laravel</strong>.<br>
-    Users can register, write articles, edit and delete their own posts, and browse articles posted by others.</p>
+A simple Medium-like blog application built using **Laravel**.  
+Users can register, write articles, edit and delete their own posts, and browse articles posted by others.
 
-    <h2>Features</h2>
-    <ul>
-        <li>User Authentication (Registration / Login / Logout)</li>
-        <li>Create, Edit, and Delete Articles</li>
-        <li>Article Categories</li>
-        <li>User Profiles</li>
-        <li>Responsive Design</li>
-    </ul>
+## Features
 
-    <h2>Tech Stack</h2>
-    <ul>
-        <li>PHP (Laravel Framework)</li>
-        <li>SqLite (Database)</li>
-        <li>Blade (Template Engine)</li>
-        <li>Tailwind CSS / Bootstrap (Frontend styling)</li>
-        <li>JavaScript (optional enhancements)</li>
-    </ul>
+- User Authentication (Registration / Login / Logout)
+- Create, Edit, and Delete Articles
+- Article Categories
+- User Profiles
+- Responsive Design
 
-    <h2>Installation</h2>
+## Tech Stack
 
-    <ol>
-        <li><strong>Clone the repository</strong>
-            <pre><code>git clone https://github.com/kaanucarci/LaravelMedium.git</code></pre>
-        </li>
+- PHP (Laravel Framework)
+- Laravel/Breeze (Authentication)
+- SQLite (Database)
+- Blade (Template Engine)
+- Tailwind CSS / Bootstrap (Frontend styling)
+- JavaScript (optional enhancements)
 
-        <li><strong>Install Composer dependencies</strong>
-            <pre><code>composer install</code></pre>
-        </li>
+## Installation
 
-        <li><strong>Install NPM dependencies</strong>
-            <pre><code>npm install
-npm run dev</code></pre>
-        </li>
-    </ol>
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/kaanucarci/LaravelMedium.git
+    ```
 
-   
+2. **Install Composer dependencies**
+    ```bash
+    composer install
+    ```
+
+3. **Install NPM dependencies**
+    ```bash
+    npm install
+    npm run dev
+    ```
